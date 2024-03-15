@@ -254,11 +254,13 @@ img {
 
 .wrapper-menu#menu .menu-item {
     text-align: center;
-    padding: 20px 0;
 }
 
 .wrapper-menu#menu .menu-link {
     color: var(--text-color);
+    padding: 20px 0;
+    display: block;
+
 }
 
 .wrapper-home-banner {
