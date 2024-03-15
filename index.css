@@ -242,7 +242,7 @@ img {
     transition: transform 0.3s ease;
     position: fixed;
     top: 0;
-    left: -500px;
+    left: -700px;
     /* Ẩn menu bên trái */
     width: 95%;
     z-index: 10;
@@ -762,15 +762,15 @@ img {
         width: 100%;
         margin: 40px auto
     }
-}
 
-@media (max-width: 590px) {
-    .wrapper-article-list{
+    .wrapper-article-list {
         padding-top: 0;
     }
-    .icon-bar{
+
+    .icon-bar {
         text-align: right;
     }
+
     .icon-bar i {
         padding: 10px;
         background-color: #fff;
@@ -799,6 +799,10 @@ img {
     .icon-close-nav:hover {
         opacity: 0.8;
     }
+}
+
+@media (max-width: 590px) {
+
 
     .wrapper-article {
         flex-direction: column
