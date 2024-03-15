@@ -242,7 +242,6 @@ img {
     transition: transform 0.3s ease;
     position: fixed;
     top: 0;
-    left: -700px;
     /* Ẩn menu bên trái */
     width: 95%;
     z-index: 10;
@@ -739,6 +738,10 @@ img {
 }
 
 @media (max-width: 767px) {
+    #menu {
+        left: -750px
+    }
+
     .main-wrapper {
         width: 100% !important
     }
@@ -802,7 +805,9 @@ img {
 }
 
 @media (max-width: 590px) {
-
+    #menu {
+        left: -600px
+    }
 
     .wrapper-article {
         flex-direction: column
